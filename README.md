@@ -1,5 +1,46 @@
-#folt
-> Famous clone of Folt.
+## Contact Us
+
+Keith Grout (keiwi.g@gmail.com)
+Andre Deutmeyer (a.deutmeyer@gmail.com)
+
+
+#Enka
+
+What is Enka?
+
+> A tile matching game, brought to you by Andre Deutmeyer, Keith Grout, and the Famo.us framework.
+
+The Enka app is simple enough to draw in gamers from all ages, but challenging enough to keep all skill levels occupied. It is a tile based app, that challenges users to match the colors of currently placed tiles with the colors of upcoming tiles. If there are 3 or more color matches, the adjoining tiles to the most recently placed tile are deleted. Tiles must be placed adjacent to the last tile placed. The game is lost when there are no more positions available to move (no more unoccopied game positions). 
+
+How is our app structured?
+
+app/
+  assets/
+    fonts/ 
+      * fonts contains fonts and icons from the fontAwesome toolkit
+    images/
+      * images contains custom images for the app and level layouts
+    styles/
+      * styles are pre-processed using Less
+  content/
+    * famo.us logo
+  lib/
+    * the Famo.us frameworks' library and polyfills
+    * Handlebars templating
+    * es6 promises
+    * localForage
+    * require
+    * lodash
+  src/
+    * models
+    * views and templates
+    * controllers
+  styles/
+    * app.css
+  index.html
+
+A bit about the Tech Stack
+
 
 [![Build Status](https://travis-ci.org/dremonkey/folt.svg?branch=master)](https://travis-ci.org/dremonkey/folt) [![Dependency Status](https://david-dm.org/dremonkey/folt.svg)](https://david-dm.org/dremonkey/folt) [![devDependency Status](https://david-dm.org/dremonkey/folt/dev-status.svg)](https://david-dm.org/dremonkey/folt#info=devDependencies)
 
