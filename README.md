@@ -1,7 +1,8 @@
 ## Contact Us
 
-Keith Grout (keiwi.g@gmail.com)
-Andre Deutmeyer (a.deutmeyer@gmail.com)
+Keith Grout keiwi.g@gmail.com
+
+Andre Deutmeyer a.deutmeyer@gmail.com
 
 
 #Enka
@@ -14,7 +15,7 @@ The Enka app is simple enough to draw in gamers from all ages, but challenging e
 
 How is our app structured?
 
-    `app/
+    app/
       assets/
         fonts/ 
           * fonts contains fonts and icons from the fontAwesome toolkit
@@ -37,7 +38,7 @@ How is our app structured?
         * controllers
       styles/
         * app.css
-      index.html`
+      index.html
 
 A bit about the Tech Stack
 
