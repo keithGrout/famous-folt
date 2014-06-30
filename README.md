@@ -40,7 +40,8 @@ How is our app structured?
         * app.css
       index.html
 
-A bit about the Tech Stack
+## What is Famo.us
+Famo.us is the only JavaScript framework that includes an open source 3D layout engine fully integrated with a 3D physics animation engine that can render to DOM, Canvas, or WebGL, helping users create smooth, complex UI's for any screen.
 
 
 [![Build Status](https://travis-ci.org/dremonkey/folt.svg?branch=master)](https://travis-ci.org/dremonkey/folt) [![Dependency Status](https://david-dm.org/dremonkey/folt.svg)](https://david-dm.org/dremonkey/folt) [![devDependency Status](https://david-dm.org/dremonkey/folt/dev-status.svg)](https://david-dm.org/dremonkey/folt#info=devDependencies)
