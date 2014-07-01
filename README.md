@@ -1,12 +1,3 @@
-## Contact Us
-
-Keith Grout keiwi.g@gmail.com
-
-Andre Deutmeyer a.deutmeyer@gmail.com
-
-
-#Enka
-
 ##What is Enka?
 
 A tile matching game, brought to you by Andre Deutmeyer, Keith Grout, and the Famo.us framework.
