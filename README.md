@@ -34,9 +34,6 @@ How is our app structured?
 ## What is Famo.us
 Famo.us is the only JavaScript framework that includes an open source 3D layout engine fully integrated with a 3D physics animation engine that can render to DOM, Canvas, or WebGL, helping users create smooth, complex UI's for any screen.
 
-
-[![Build Status](https://travis-ci.org/dremonkey/folt.svg?branch=master)](https://travis-ci.org/dremonkey/folt) [![Dependency Status](https://david-dm.org/dremonkey/folt.svg)](https://david-dm.org/dremonkey/folt) [![devDependency Status](https://david-dm.org/dremonkey/folt/dev-status.svg)](https://david-dm.org/dremonkey/folt#info=devDependencies)
-
 ##Dependencies
 It is actually quite simple really
 
@@ -71,12 +68,6 @@ If you would like to have your server be accessible to other devices on your loc
 ##Production
 
 If you would like to compile your project for distribution simply run the command ```grunt``` to build ```dist/``` which will be a deployment ready version of your app.  Preprocessing will be applied to html, all js will be concatenated and minified.  All js / css assets will also have their name prepended with a hash for cache busting.
-
-##Why are styles so strict?
-
-While the default style guidelines are fairly strict, we are doing so with reason.  Famo.us is not only a framework for creating cutting edge web application, but a community project that we are all going to contribute to in the hopes of making the web better.  We truly believe that having consistent style within the community will make it easier for individuals to jump between different Famo.us modules without having to waste valuable time on processing style.
-
-While our Package Manager (which is currently in development) will enforce our style guide if you would like to publish a module, feel free to disable eslint or jscs as you see fit.  If you want to disable linting you will need to comment out lines 18 - 19 in ```grunt/aliases.js```
 
 ## Contributing
 All contributions are welcome! The simplest way to show your support for this project is to **"star" it**.
